@@ -1,0 +1,118 @@
+/* AdminBoatsPage.css */
+
+.admindiv {
+    background-image: url("https://wallpaperaccess.com/full/8853042.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 20px;
+    color: #fff;
+  }
+  .adminlogout
+  {
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: 80px;
+  }
+  .admincreatediv
+  {
+    position: absolute;
+    width: 400px;
+    margin-left: 550px;
+    height:300px;
+    margin-top: 400px;
+  }
+  .admineditfield
+  {
+    position: absolute;
+    width: 400px;
+    margin-left: 75px;
+    height:300px;
+    margin-top: 400px;
+  }
+  .admindeletefield
+  {
+    position:absolute;
+    width:400px;
+    margin-left: 1000px;
+    height:300px;
+    margin-top: 400px;
+  }
+  #colourid
+  {
+    color: #d32f2f;
+  }
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  #reasonfordeletefield
+  {
+    height:100px;
+  }
+  input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  li button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  li button:hover {
+    background-color: #d32f2f;
+  }
+  

@@ -1,0 +1,24 @@
+.pro h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.pro img{
+    margin-left: 660px;
+    margin-top: 10px;
+    width: 14%;
+    margin-top: 20px;
+    margin-bottom:40px;
+}
+.pro h2{
+    margin-left: 640px;
+}
+.pro h3{
+    font-size: 110%;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    margin-left:10px ;
+}
+.pd{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,26 @@
+.contact-us-container {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.cc{
+    font-size: 120%;
+    text-align: center;
+}
+.contact-us-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact-section{
+    margin-left: 150px;
+  
+}
+.contact-section h2{
+   margin-bottom: 10px;
+   margin-top: 20px;
+   text-decoration: underline;
+}
+.contact-section p{
+    padding-top: 10px;
+    font-size: 120%;
+}

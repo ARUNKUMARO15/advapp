@@ -1,0 +1,28 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+
+.nav{
+    background-color: rgba(8, 8, 8, 0.718);
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+.nav ul{
+    list-style-type: none;
+}
+.l1{
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    font-size: 120%;
+}
+.l1:hover{
+    color: rgba(159, 150, 150, 0.915)
+}
+.nav-h2{
+    margin-left: -1200px;
+    font-size: 180%;
+    color: rgb(255, 255, 255);
+    font-family: allura;
+}

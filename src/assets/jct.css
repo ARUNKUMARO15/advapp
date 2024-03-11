@@ -1,0 +1,210 @@
+/* Shared Styles */
+.h2-center {
+  text-align: center;
+  margin-top: 10px;
+  font-family: allura;
+}
+
+.margin-left-60 {
+  margin-left: 60px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.width-20 {
+  width: 20%;
+}
+
+.padding-5 {
+  padding: 5px 0px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Form Styles */
+.form {
+  border: 1px solid;
+  width: 120%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .form-input {
+  padding: 10px 30px;
+  margin-top: 10px;
+  width: 78%;
+  ${'' /* Applying shared style */
+   /* No need for margin-left: 20px as it's common */
+
+
+
+
+
+/* .button1 {
+  ${'' /* Applying shared styles */
+  /* * Use the utility classes instead of rewriting styles */ */
+ 
+
+/* .c-t {
+  ${'' /* Applying shared styles */
+
+
+.f-term {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.f-checkbox {
+  margin-left: 90px;
+}
+
+/* Content Styles */
+.content-b1,
+.content-b2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img11,
+.img22 {
+  width: 25%;
+}
+
+.room,
+.room1 {
+  margin-top: 20px;
+}
+
+.room h2,
+.room1 h2 {
+  margin-bottom: 30px;
+  font-size: 180%;
+  font-family: allura;
+}
+
+.room p,
+.room1 p,
+.r-p p {
+  font-size: 120%;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.j-h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-family: allura;
+  margin-bottom: 20px;
+}
+
+/* Others Styles */
+.others-c,
+.others {
+  display: flex;
+  flex-direction: row;
+}
+
+.block-1 {
+  width: 58%;
+  position:absolute;
+}
+
+.os,
+.ff {
+  margin: 0px 0px 0px 70px;
+  position:absolute;
+}
+
+.os h2,
+.ff h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position:absolute;
+}
+
+.os p,
+.ff p {
+  font-size: 110%;
+  margin-bottom: 10px;
+  /* position:absolute; */
+}
+
+.others-img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.booking-form {
+  margin-left: 500px;
+  margin-top: 100px;
+  /* background-image:url("https://wallpaperaccess.com/full/279937.png"); */
+}
+
+.loc h2 {
+  margin-left: 400px;
+}
+
+/* Additional Styles for Specific Elements */
+/* .map {
+  ${'' /* Applying shared styles */
+
+
+.map-d {
+  display: flex;
+  flex-direction: row;
+}
+
+.img3 {
+  height: 36vh;
+  margin-left: 180px;
+}
+
+.img11 {
+  height: 45vh;
+  width: 60%;
+  margin-left: 60px;
+}
+
+.img22 {
+  height: 45vh;
+  width: 27%;
+  margin-left: 50px;
+}
+
+/* Responsive Styles (Add as needed) */
+@media (max-width: 768px) {
+  .form,
+  .width-20 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img11,
+  .img22 {
+    width: 100%;
+  }
+}

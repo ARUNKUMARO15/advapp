@@ -1,0 +1,53 @@
+.user {
+    width: 230px;
+    height: 200px;
+    background-image: url("../assets/pics/resized_onlinebooking.jpg");
+    border-radius: 50%;
+    position: absolute;
+    left: 28%; /* Center horizontally */
+    top: 52%; /* Adjust the vertical position */
+    transform: translateX(-50%); 
+}
+#userh3,#adminh3
+{
+    color:lavenderblush;
+}
+.admin {
+    width: 230px;
+    height: 200px;
+    background-image: url("../assets/pics/resized_admin_280240.jpg");
+    border-radius: 50%;
+    position: absolute;
+    left: 48%; /* Adjust the horizontal position */
+    top: 52%; /* Adjust the vertical position */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+.quotes {
+    width: 590px;
+    height: 260px;
+    background-color: blueviolet;
+    background-image: url("../assets/pics/q1_560_260.jpg");
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    mix-blend-mode: darken;
+    left: 38%; /* Adjust the horizontal position */
+    top: 10%; /* Adjust the vertical position */
+    transform: translateX(-50%); 
+}
+
+#rolebody
+{
+    background-image: url("https://images.pexels.com/photos/1482193/pexels-photo-1482193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.user,.admin:hover{
+    cursor: pointer;
+}

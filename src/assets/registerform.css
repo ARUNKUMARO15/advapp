@@ -1,0 +1,75 @@
+.register-page{
+    /* background-color: rgba(121, 87, 87, 0.625); */
+    background-image: url("https://img.freepik.com/premium-photo/abstract-background-blue-gradient-color-with-grunge-paper-hires-texture-stripe-line_634053-1785.jpg?w=360");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    flex-direction: row;
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.register-form-container {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 970px;
+  }
+  
+  .register-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .register-label{
+    font-size: 120%;
+    margin-bottom: 20px;
+  }
+  
+  .register-form-container input {
+    width: 93%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .register-form-container button {
+    width: 50%;
+    padding: 10px;
+    background-color: #4c4d4e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px 75px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .register-p{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.r1{
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+}
+.r1:hover{
+    color: white;
+}
+
+  
